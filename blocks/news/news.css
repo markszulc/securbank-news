@@ -1,0 +1,82 @@
+.news > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 5px 5px; 
+  grid-template-areas: 
+    "news0 news1 news3"
+    "news0 news1 news4"
+    "news0 news2 news5"
+    "news0 news2 news6"; 
+}
+
+.news0 { grid-area: news0;
+  border-right: 1px solid var(--highlight-background-color);
+  padding-right: 24px;
+  
+}
+.news1 { 
+  grid-area: news1;
+  border-right: 1px solid var(--highlight-background-color);
+  padding: 0 23px 4.2rem;
+  .cards-card-body p:nth-child(2) { display: none;}
+  
+}
+.news2 { grid-area: news2;
+  .cards-card-body p:nth-child(2) { display: none;}
+  border-right: 1px solid var(--highlight-background-color);
+  padding: 0 23px;
+ }
+.news3 { grid-area: news3;
+  padding: 0 23px;
+  .cards-card-image { display: none;}
+  .cards-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  
+  .cards-card-body p:nth-child(2) { display: none;}
+ }
+.news4 { grid-area: news4;
+  padding: 0 23px;
+  .cards-card-image { display: none;} 
+  .cards-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  
+  .cards-card-body p:nth-child(2) { display: none;}}
+.news5 { grid-area: news5; 
+  padding: 0 23px;
+  .cards-card-image { display: none;}
+  .cards-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  
+  .cards-card-body p:nth-child(2) { display: none;}}
+.news6 { grid-area: news6; 
+  padding: 0 23px;
+  .cards-card-image { display: none;}
+  .cards-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  .cards-card-body p:nth-child(2) { display: none;}}
+.news7 { grid-area: news7;
+  padding: 0 23px;
+  .cards-card-image { display: none;} 
+  .cards-card-body p:nth-child(2) { display: none;}}
+
+
+.news > ul > li {
+  background-color: var(--background-color)
+}
+
+
+
+.news .cards-card-image {
+  line-height: 0;
+}
+
+.news .cards-card-body > *:first-child {
+  margin-top: 0;
+}
+
+.news > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
