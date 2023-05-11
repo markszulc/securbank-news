@@ -12,12 +12,12 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
+  --link-color: #0296A6;
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #000;
+  --text-color: #2C2C2C;
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -220,13 +220,18 @@ main img {
   width: 100%;
 }
 
+.icon-securbank_logo {
+  width: 100%;
+  height: 100%;
+}
+
 main .section {
-  padding: 64px 16px;
+  padding: 12px 0px;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 18px 0px;
   }
 }
 
