@@ -38,18 +38,18 @@
 .news3 { grid-area: news3;
   padding: 0 23px;
   .news-card-image { display: none;}
-  .news-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  .news-card-body:nth-child(2) { border-bottom: 1px solid var(--highlight-background-color);}
   .news-card-body h3 {margin-top: 0px;}
  }
 .news4 { grid-area: news4;
   padding: 0 23px;
   .news-card-image { display: none;} 
-  .news-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  .news-card-body:nth-child(2) { border-bottom: 1px solid var(--highlight-background-color);}
 }
 .news5 { grid-area: news5; 
   padding: 0 23px;
   .news-card-image { display: none;}
-  .news-card-body { border-bottom: 1px solid var(--highlight-background-color);}
+  .news-card-body:nth-child(2) { border-bottom: 1px solid var(--highlight-background-color);}
 }
 .news6 { grid-area: news6; 
   padding: 0 23px;

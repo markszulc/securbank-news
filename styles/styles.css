@@ -12,7 +12,7 @@
 
  :root {
   /* colors */
-  --link-color: #0296A6;
+  --link-color: #3E6470;
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
@@ -38,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 40px;
 
 }
 
@@ -68,7 +68,7 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  height: calc(var(--nav-height) + 40px);
 }
 
 h1, h2, h3,
